@@ -135,6 +135,24 @@
             #endregion
 
 
+            #region MyRegion
+            //13 - Which of the following statements is correct about the C#.NET code snippet given below?
+            //int d;
+            //d = Convert.ToInt32(!(30 < 20)); //False --> true -->1
+            //Console.WriteLine(d);
+            ////e)	A value 0 will be assigned to d.
+            ////f)	A value 1 will be assigned to d.
+            ////g)	A value -1 will be assigned to d.
+            ////h)	The code reports an error.
+            ////i)	The code snippet will work correctly if ! is replaced by Not.
+
+
+            //Console.WriteLine(d);
+
+
+            // Ansewr --> f
+            #endregion
+
 
         }
     }
