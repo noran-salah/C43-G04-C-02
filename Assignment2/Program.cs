@@ -20,6 +20,15 @@
             int Result =Convert.ToInt32(Input);
             #endregion
 
+            #region MyRegion
+            //Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
+            double num1 = 0.1;
+            double num2 = 0.2;
+            double sum= num1 + num2;
+            Console.WriteLine($"Sum = {sum}"); //0.3
+            #endregion
+
+
         }
     }
 }
