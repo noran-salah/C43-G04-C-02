@@ -154,6 +154,22 @@
             #endregion
 
 
+            #region MyRegion
+            //14-	Which of the following is the correct output for the C# code given below?
+            //Console.WriteLine(13 / 2 + " " + 13 % 2); //6 1
+
+            //a)	6.5 1
+            //b)	6.5 0
+            //c)	6 0
+            //d)	6 1
+            //e)	6.5 6.5
+
+
+            // 6 1
+
+            // Answer --> d
+            #endregion
+
         }
     }
 }
