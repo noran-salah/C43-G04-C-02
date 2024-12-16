@@ -28,6 +28,15 @@
             Console.WriteLine($"Sum = {sum}"); //0.3
             #endregion
 
+            #region MyRegion
+            //Write C# program that Extract a substring from a given string.
+
+            string String = "Hello World";
+            string SubString = String.Substring(5);
+            Console.WriteLine($"Substring = {SubString}");
+            #endregion
+
+
 
         }
     }
