@@ -13,6 +13,13 @@
             Console.WriteLine(Number);
             #endregion
 
+            #region MyRegion
+            //Write C# program that Convert a string to an integer, but the string contains non-numeric characters. And mention what will happen
+
+            String Input = "123ABC";
+            int Result =Convert.ToInt32(Input);
+            #endregion
+
         }
     }
 }
