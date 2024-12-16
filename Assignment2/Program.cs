@@ -120,6 +120,22 @@
             #endregion
 
 
+            #region MyRegion
+            //What is the output of the following C# code?
+
+            //DateTime date = new DateTime(2024, 6, 14); 
+            //Console.WriteLine($"The event is on {date:MM/dd/yyyy}");  // 06/14/2024
+
+            ////a) The event is on 14/06/2024
+            ////b) The event is on 2024-06-14
+            ////c) The event is on 06/14/2024
+            ////d) The event is on June 14, 2024
+
+            //// Ansewr --> C
+            #endregion
+
+
+
         }
     }
 }
