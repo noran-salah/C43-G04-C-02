@@ -100,6 +100,24 @@
             Console.WriteLine(Message);
             #endregion
 
+            #region MyRegion
+            #region Q11
+            //11 - Write a program that takes the date from user and displays it in various formats using string interpolation.
+            //Ex:
+            //Today’s date : 20 , 11 , 2001
+            //Today's date : 20 / 11 / 2001
+            //Today's date : 20 – 11 – 2001
+
+            DateTime dateTime = DateTime.Now;
+
+            string Fromate01 = $"{dateTime.Day} , {dateTime.Month} , {dateTime.Year}";
+            string Fromate02 = $"{dateTime.Day} / {dateTime.Month} / {dateTime.Year}";
+            string Fromate03 = $"{dateTime.Day} - {dateTime.Month} - {dateTime.Year}";
+
+            Console.WriteLine(Fromate01);
+            Console.WriteLine(Fromate02);
+            Console.WriteLine(Fromate03);
+            #endregion
 
 
         }
