@@ -59,6 +59,15 @@
             Console.WriteLine( $" Arr01 ={arr01[0]}  Arr02 ={arr02[0]}");
             #endregion
 
+            #region MyRegion
+            //Write C# program that take two string variables and print them as one variable 
+
+            string str01 = "Hello";
+            string str02 = "world";
+
+            Console.WriteLine($"{str01} {str02}");
+            #endregion
+
 
         }
     }
