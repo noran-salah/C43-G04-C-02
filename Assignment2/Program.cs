@@ -48,6 +48,17 @@
             Console.WriteLine($"X = {X}  Y = {Y}");
             #endregion
 
+            #region MyRegion
+            //Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+            int[] arr01 = { 1, 2, 3 };
+
+            int[] arr02 = arr01;
+
+            arr02[0] = 5;
+
+            Console.WriteLine( $" Arr01 ={arr01[0]}  Arr02 ={arr02[0]}");
+            #endregion
+
 
         }
     }
