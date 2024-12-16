@@ -36,6 +36,17 @@
             Console.WriteLine($"Substring = {SubString}");
             #endregion
 
+            #region MyRegion
+            //Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            int X = 2;
+            int Y = 2;
+
+            X = Y; X=2 Y=2
+
+            X = 4; 4
+
+            Console.WriteLine($"X = {X}  Y = {Y}");
+            #endregion
 
 
         }
